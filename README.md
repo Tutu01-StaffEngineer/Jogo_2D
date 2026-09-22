@@ -6,3 +6,5 @@
 08/09 - Hoje aprendi a como adicionar a movimentação, física do player na Unity. Programamos a movimentação com base num novo código que aprendemos com o Eliseu, onde logo em seguida abrimos nossa conta no GithubDesktop e acabamos dando commit, punch e um save no nosso repositório. Salvamos o projeto no github e clonamos dentro do GitHub.
 # Movimento e Pulo
 17/09 - Hoje desenvolvemos na unity o movimento do player totalmente, usando o RigidBody2D, Vector e aplicamos também juntamente o pulo. Adicionamos a movimentação horizontal e uma força adicionada no pulo. Depois disso, terminamos de criar esse script e agora commitamos e demos push pro GitHub.
+# Pulo e Tag Ground
+22/09 - Hoje desenvolvemos finalmente o pulo do player, definindo que a onde tiver uma plataforma pra se chamar de chão, acrescentar a tag Ground para que o player consiga pular. Programamos na Unity utilizando como fundamentl o OnCollision2D para o nosso futuro jogo.
