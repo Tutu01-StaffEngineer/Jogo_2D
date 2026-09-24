@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEditor.XR;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -40,6 +41,10 @@ public class Player : MonoBehaviour
         {
             isGrounded = false;
 
+        }
+        if (collision.gameObject.CompareTag("Dano"))
+        {
+            SceneManager.LoadScene(0);
         }
     }
 }
