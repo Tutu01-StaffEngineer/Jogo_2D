@@ -34,6 +34,11 @@ public class Player : MonoBehaviour
         {
             isGrounded = true;
       }
+        if (collision.gameObject.CompareTag("Dano"))
+        {
+            SceneManager.LoadScene(0);
+        }
+
     }
     void OnCollisionExit2D(Collision2D collision)
     {
@@ -42,9 +47,7 @@ public class Player : MonoBehaviour
             isGrounded = false;
 
         }
-        if (collision.gameObject.CompareTag("Dano"))
-        {
-            SceneManager.LoadScene(0);
-        }
+        
+        
     }
 }
