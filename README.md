@@ -12,3 +12,5 @@
 24/09 - Hoje comecei a desenvolver e criar o mapa do jogo na Unity, versionando o código colocando obstáculos, incrementando as especificações que estará no meu jogo. Comecei já pelo chão, espinhos para dano e futuramente irei criar vários mapas, representando os levels.
 # Modificações no Mapa, tags adicionadas , prefab criada
 29/09- Hoje fiz várias modificações no meu mapa acrescentando obstáculos, plataformas. Adicionei a TagDano aos espinhos, onde quando o player passar por cima ou encostar ele morre e volta pro spawn. Adicionei também umas artes conceituais que desenvolvi no Krita como o chão da terra etc. Pra adicionar a TagDano tivemos que implementar la no MonoBehavour Script.
+# Mecânica nova e implementos no mapa
+06/10 - Hoje acrescentei uma mecânica nova, o dash, onde o player ele dá uma esquivada pra uns dos lados que ele estiver. Quando o player pressionar a tecla Q, o dash vai sair. Fiz também algumas modificações no mapa acrescentando novos obstáculos e alterando cenas, passagens.
