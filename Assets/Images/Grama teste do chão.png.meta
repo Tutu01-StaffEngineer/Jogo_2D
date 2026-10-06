@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Grama teste do ch\xE3o_0": 2128788958670140842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
