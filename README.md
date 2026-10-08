@@ -14,3 +14,5 @@
 29/09- Hoje fiz várias modificações no meu mapa acrescentando obstáculos, plataformas. Adicionei a TagDano aos espinhos, onde quando o player passar por cima ou encostar ele morre e volta pro spawn. Adicionei também umas artes conceituais que desenvolvi no Krita como o chão da terra etc. Pra adicionar a TagDano tivemos que implementar la no MonoBehavour Script.
 # Mecânica nova e implementos no mapa
 06/10 - Hoje acrescentei uma mecânica nova, o dash, onde o player ele dá uma esquivada pra uns dos lados que ele estiver. Quando o player pressionar a tecla Q, o dash vai sair. Fiz também algumas modificações no mapa acrescentando novos obstáculos e alterando cenas, passagens.
+# Menu de Pausa
+08/10 - Hoje na unity desenvolvi o menu de pausa, onde quando o player pressionar a tecla ESC o jogo pausa e vai para o menu, e após pressionar novamente, volta para a cena do jogo atual. Fiz também algumas alterações em outros scripts e melhorei alguns atributos.
