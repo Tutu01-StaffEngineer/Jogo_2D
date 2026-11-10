@@ -13,10 +13,13 @@ public class Player : MonoBehaviour
     public float dashDuration = 0.2f;
     public float dashCooldown = 1f;
 
+    public MenuScene menu;
+
     private Rigidbody2D rb;
     private bool isGrounded = false;
     private bool isDashing = false;
     private bool canDash = true;
+    
 
     // Guarda a última direção em que o jogador andou
     private float lastDirection = 1f;
@@ -91,7 +94,7 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Dano"))
         {
-            SceneManager.LoadScene(0);
+            menu.MostrarGameOver();
         }
     }
 
