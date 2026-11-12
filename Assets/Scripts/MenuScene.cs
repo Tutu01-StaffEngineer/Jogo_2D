@@ -61,8 +61,32 @@ public class MenuScene : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-}
 
+    public void VoltarMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+    }
+
+    public void PassarFase()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("COLISAO DETECTADA!");
+
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("PLAYER DETECTADO!");
+            PassarFase();
+        }
+    }
+
+
+}
 
  
 
