@@ -20,3 +20,5 @@
 08/10 - Hoje na unity desenvolvi o menu de pausa, onde quando o player pressionar a tecla ESC o jogo pausa e vai para o menu, e após pressionar novamente, volta para a cena do jogo atual. Fiz também algumas alterações em outros scripts e melhorei alguns atributos. 
 # Menu Tela De Derrota
 15/10 - Hoje começamos a desenvolver aos poucos o menu da tela de derrota. Onde quando o player morrer ou encostar em algum objeto com a tag de Dano, o jogo ira dá uma travada e caíra para a tela de derrota com o botão de reset e escrito bem grande GAME OVER.
+# Menu do Jogo e Começo da 2 Fase
+12/11 - Comecei a desenvolver o Menu do jogo e terminei, iniciei o planejamento da 2 fase porém ainda não terminei. 
