@@ -96,6 +96,17 @@ public class Player : MonoBehaviour
         {
             menu.MostrarGameOver();
         }
+    }   
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Dano"))
+        {
+            menu.MostrarGameOver();
+        }
+        if (other.gameObject.CompareTag("BlocoVitoria"))
+        {
+            menu.MostrarVitoria();
+        }
     }
 
     void OnCollisionExit2D(Collision2D collision)

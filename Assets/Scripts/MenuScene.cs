@@ -6,7 +6,7 @@ public class MenuScene : MonoBehaviour
 {
     public GameObject painelPause;
     public GameObject painelGameOver;
-
+    public GameObject PainelVitoria;
     bool pausado = false;
     bool jogoAcabou = false;
     void Start()
@@ -68,24 +68,33 @@ public class MenuScene : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (gameObject.CompareTag("Portal"))
+            {
+                PassarFase();
+            }
+
+            if (gameObject.CompareTag("BlocoVitoria"))
+            {
+                MostrarVitoria();
+            }
+        }
+    }
     public void PassarFase()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+   
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void MostrarVitoria()
     {
-        Debug.Log("COLISAO DETECTADA!");
-
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("PLAYER DETECTADO!");
-            PassarFase();
-        }
+        Time.timeScale = 0f;
+        PainelVitoria.SetActive(true);
     }
-
-
 }
 
  
