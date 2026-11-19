@@ -8,6 +8,7 @@ TagManager:
   - Dano
   - Portal
   - BlocoVitoria
+  - Limbo
   layers:
   - Default
   - TransparentFX

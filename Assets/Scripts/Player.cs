@@ -3,9 +3,14 @@ using UnityEditor.XR;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-
+using UnityEngine.UI; // Permite utilizar o Slider da barra de vida.
 public class Player : MonoBehaviour
 {
+    public Slider barraVida; // Referência à barra de vida da interface.
+    public float vidaMaxima = 100f; // Define a vida máxima do jogador.
+    public float danoInimigo = 20f; // Define quanto de vida o inimigo retira.
+    private float vidaAtual; // Armazena a vida atual do jogador.
+
     public float speed = 5f;
 
     // Configurações do Dash
@@ -19,14 +24,20 @@ public class Player : MonoBehaviour
     private bool isGrounded = false;
     private bool isDashing = false;
     private bool canDash = true;
-    
+
 
     // Guarda a última direção em que o jogador andou
     private float lastDirection = 1f;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); // Obtém o Rigidbody2D do jogador.
+
+        vidaAtual = vidaMaxima; // Começa com a vida cheia.
+
+        barraVida.maxValue = vidaMaxima; // Define o máximo da barra como 100.
+
+        barraVida.value = vidaAtual; // Preenche a barra completamente.
     }
 
     void Update()
@@ -84,36 +95,57 @@ public class Player : MonoBehaviour
 
         canDash = true;
     }
-
-    void OnCollisionEnter2D(Collision2D collision)
+    void ReceberDano(float quantidade) // Recebe a quantidade de dano.
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (vidaAtual <= 0) // Verifica se o jogador já está sem vida.
+            return; // Impede que continue recebendo dano.
+
+        vidaAtual -= quantidade; // Diminui a vida do jogador.
+        vidaAtual = Mathf.Clamp(vidaAtual, 0, vidaMaxima); // Mantém a vida entre zero e o máximo.
+        barraVida.value = vidaAtual; // Atualiza a barra de vida.
+
+        if (vidaAtual <= 0) // Verifica se a vida chegou a zero.
         {
-            isGrounded = true;
+            menu.MostrarGameOver(); // Mostra a tela de Game Over.
+        }
+    } // Fecha o método ReceberDano.
+
+    void OnCollisionEnter2D(Collision2D collision) // Detecta colisões físicas.
+    {
+        if (collision.gameObject.CompareTag("Ground")) // Verifica se tocou no chão.
+        {
+            isGrounded = true; // Informa que o jogador está no chão.
         }
 
-        if (collision.gameObject.CompareTag("Dano"))
+        if (collision.gameObject.CompareTag("Dano")) // Verifica se tocou em um perigo.
         {
-            menu.MostrarGameOver();
+            ReceberDano(danoInimigo); // Retira vida ao tocar no inimigo.
         }
-    }   
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Dano"))
+
+        if (collision.gameObject.CompareTag("Limbo")) // Verifica se caiu no Limbo.
         {
-            menu.MostrarGameOver();
-        }
-        if (other.gameObject.CompareTag("BlocoVitoria"))
-        {
-            menu.MostrarVitoria();
+            menu.MostrarGameOver(); // Mata o jogador instantaneamente.
         }
     }
 
-    void OnCollisionExit2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D other) // Detecta contatos com objetos Trigger.
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Dano")) // Verifica se entrou em contato com o inimigo.
         {
-            isGrounded = false;
+            ReceberDano(danoInimigo); // Retira vida do jogador.
+        }
+
+        if (other.gameObject.CompareTag("BlocoVitoria")) // Verifica se tocou no bloco de vitória.
+        {
+            menu.MostrarVitoria(); // Mostra a tela de vitória.
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision) // Detecta quando o jogador deixa uma colisão.
+    {
+        if (collision.gameObject.CompareTag("Ground")) // Verifica se saiu do chão.
+        {
+            isGrounded = false; // Informa que o jogador não está mais no chão.
         }
     }
 }

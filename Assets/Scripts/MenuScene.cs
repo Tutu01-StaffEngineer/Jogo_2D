@@ -94,8 +94,9 @@ public class MenuScene : MonoBehaviour
     {
         Time.timeScale = 0f;
         PainelVitoria.SetActive(true);
+
     }
-}
+}   
 
  
 

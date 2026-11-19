@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: bfd912ec77e17104e97f216411d9b914
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1918592738717503159
+    second: Inimigo mal 10]_0
+  - first:
+      213: -8627933165508580073
+    second: Inimigo mal 10]_1
+  - first:
+      213: -7765279946165009115
+    second: Inimigo mal 10]_2
+  - first:
+      213: 3080212605306989891
+    second: Inimigo mal 10]_3
+  - first:
+      213: 6519249069787881837
+    second: Inimigo mal 10]_4
+  - first:
+      213: 8181480449598481012
+    second: Inimigo mal 10]_5
+  - first:
+      213: 6112442968430884017
+    second: Inimigo mal 10]_6
+  - first:
+      213: -1959533593421760517
+    second: Inimigo mal 10]_7
+  - first:
+      213: -7349096101890172202
+    second: Inimigo mal 10]_8
+  - first:
+      213: 2096154665235604545
+    second: Inimigo mal 10]_9
+  - first:
+      213: -2096822368709019530
+    second: Inimigo mal 10]_10
+  - first:
+      213: 639266799809466620
+    second: Inimigo mal 10]_11
+  - first:
+      213: 7587252719388054025
+    second: Inimigo mal 10]_12
+  - first:
+      213: -2746153584175076781
+    second: Inimigo mal 10]_13
+  - first:
+      213: 1227816981037933332
+    second: Inimigo mal 10]_14
+  - first:
+      213: -1014643576997345667
+    second: Inimigo mal 10]_15
+  - first:
+      213: 5285497635739138259
+    second: Inimigo mal 10]_16
+  - first:
+      213: 8942492597113844315
+    second: Inimigo mal 10]_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inimigo mal 10]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1349
+        height: 1111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941791cb11acf55e0800000000000000
+      internalID: -1918592738717503159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 935
+        width: 60
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dac0caf7c634880800000000000000
+      internalID: -8627933165508580073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_2
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 877
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525ce5bf70f2c3490800000000000000
+      internalID: -7765279946165009115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_3
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 418
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34de00c7b0d1fba20800000000000000
+      internalID: 3080212605306989891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_4
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 360
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61a00f0d76097a50800000000000000
+      internalID: 6519249069787881837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 288
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472ee1f1f157a8170800000000000000
+      internalID: 8181480449598481012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 291
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b43823ae72c3d450800000000000000
+      internalID: 6112442968430884017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_7
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 273
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7b6ae24965ec4e0800000000000000
+      internalID: -1959533593421760517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 239
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dad0a25804c20a90800000000000000
+      internalID: -7349096101890172202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 214
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14465a7ef89071d10800000000000000
+      internalID: 2096154665235604545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 175
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67871044a2796e2e0800000000000000
+      internalID: -2096822368709019530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 151
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0185774c12fd800800000000000000
+      internalID: 639266799809466620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 149
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902dd3836265b4960800000000000000
+      internalID: 7587252719388054025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 143
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a249c6dd3b3e9d0800000000000000
+      internalID: -2746153584175076781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 95
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41365fbf9051a0110800000000000000
+      internalID: 1227816981037933332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 87
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d760173ea034be1f0800000000000000
+      internalID: -1014643576997345667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_16
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 38
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8f56f881cd95940800000000000000
+      internalID: 5285497635739138259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo mal 10]_17
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 29
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52f78143ad1a1c70800000000000000
+      internalID: 8942492597113844315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
