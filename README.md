@@ -24,3 +24,5 @@
 12/11 - Comecei a desenvolver o Menu do jogo e terminei, iniciei o planejamento da 2 fase porém ainda não terminei. 
 # 2Fase feita e funcionando
 17/11 - Terminei a 2Fase , coloquei o teleporte e adicionei a tela de vitória. Só ajustar agora novas fases e acrescentar algumas modificações minímas no jogo.
+# Barra de Vida, inimigos e melhorias
+19/11 - Hoje desenvolvi a barra de vida, incrementei um inimigo que fica andando pros dois lados e fiz melhorias no menu inicial, tela de vitória etc.
